@@ -3,12 +3,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  
+
   body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
@@ -24,12 +19,9 @@
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    display: inline;
   }
   
-  header a {
-    color: #fce138;
-  }
-
   header a {
     text-decoration: none;
     color: #fce138;
@@ -50,14 +42,6 @@
     font-size: 22px;
   }
 
-  header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-    display: inline;
-  }
-  
   footer {
     background: #fce138;
     width: 100%;
@@ -117,4 +101,16 @@
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
+  }
+
+  .hero-form label {
+    margin: 0 5px;
+  }
+
+  .hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
   }
